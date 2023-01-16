@@ -1,14 +1,9 @@
 <script>
-	import Nav from '../components/Nav.svelte';
-
-	export let segment;
+    import Nav from '../components/Nav.svelte';
 </script>
 
+<Nav/>
 
-	
-
-<Nav {segment}/>
-
-<main class="form-signin w-100 m-auto">
-	<slot></slot>
+<main class="form-signin">
+    <slot></slot>
 </main>
